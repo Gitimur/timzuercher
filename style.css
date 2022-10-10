@@ -23,9 +23,17 @@
   align-self: auto;
 }
 
-body {
-  background-color: #cecece;
+/*body {
+  background-color: #ff1361;
   overflow: auto;
+}*/
+
+.h1 {
+  font-size: 64pt;
+}
+
+p {
+  font-size: 18pt;
 }
 
 /* --- Hearder --- */
@@ -67,4 +75,27 @@ body {
   to {
     background-position: 200% center;
   }
+}
+
+/* --- Contact --- */
+.contact {
+  margin: 5%;
+  align-self: auto;
+  background: transparent;
+}
+
+.contact img {
+  max-width: 20%;
+  max-height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.contacttext {
+  padding-top: 12%;
+  padding-left: 8%;
+}
+
+.contacttext h2 {
+  font-size: 32pt;
 }
