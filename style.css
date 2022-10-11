@@ -1,4 +1,137 @@
-/* Bootstrap */
-
+/* --- Basic ---*/
 :root {
+  --primary: #404040;
+  --second: #cecece;
+  --accent: #003056;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.h1 {
+  font-size: 64pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.item {
+  order: 0; /* default is 0 */
+  flex-grow: 0; /* default is 0 */
+  flex-shrink: 1; /* default 1 */
+  flex-basis: auto; /* default auto */
+  flex: none;
+  align-self: auto;
+}
+
+/* --- Hearder --- */
+.toppage {
+  background-image: url(../../assets/background_spiez.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  max-height: 400px;
+  /*border-style: dotted;*/
+}
+
+.toppage h1 {
+  font-size: 64pt;
+  text-align: center;
+  align-self: center;
+  margin-top: 150px;
+  text-transform: uppercase;
+  background-color: rgb(207, 207, 207, 0.3);
+}
+
+.toppageanimation {
+  background-image: linear-gradient(
+    -225deg,
+    #404040 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* --- NAV --- */
+nav {
+  background-color: #404040;
+}
+
+.nav-list {
+  background-color: white;
+  box-shadow: 00px, 0px, 10px var(--second);
+  margin: 0;
+  padding: 1px 1px;
+  border-radius: 2;
+}
+
+ul,
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* --- Contact --- */
+.contact {
+  margin: 5%;
+  align-self: auto;
+  background: transparent;
+}
+
+.contact img {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contacttext {
+  padding-top: 12%;
+  padding-left: 8%;
+}
+
+.contacttext h2 {
+  font-size: 32pt;
+}
+
+/* --- Social Media --- */
+.socialmediaeffect a {
+  transition: border-radius 0.2s linear 0s;
+  transform: rotate(45deg);
+}
+
+.socialmediaeffect i {
+  transition: transform 0.01s linear 0s;
+  transform: rotate(-45deg);
+}
+
+.socialmediaeffect a :hover {
+  border-radius: 0px;
 }

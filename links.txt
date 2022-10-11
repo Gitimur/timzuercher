@@ -1,0 +1,30 @@
+### Fragen: 
+Wie kann ich einen Hintergrund hinterlegen bei Überschrift: 
+
+
+#ALG
+https://github.com/emmabostian/developer-portfolios
+
+
+#CSS
+##CSS Backgrounds#
+https://alvarotrigo.com/blog/animated-backgrounds-css/
+
+##CSS-Text-Animations
+https://alvarotrigo.com/blog/css-text-animations/
+
+
+##CSS Textbausteine
+# Überschrift Tim Zürcher
+
+##CSS Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+
+#HTML
+
+
+
+
+#js
