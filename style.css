@@ -5,8 +5,22 @@
   --accent: #003056;
 }
 
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.h1 {
+  font-size: 64pt;
+}
+
+p {
+  font-size: 18pt;
+}
+
 .container {
   display: flex; /* or inline-flex */
+  flex-direction: column;
   flex-wrap: wrap;
   flex-flow: column wrap;
   justify-content: center;
@@ -15,25 +29,12 @@
 }
 
 .item {
-  order: 5; /* default is 0 */
-  flex-grow: 4; /* default is 0 */
-  flex-shrink: 3; /* default 1 */
+  order: 0; /* default is 0 */
+  flex-grow: 0; /* default is 0 */
+  flex-shrink: 1; /* default 1 */
   flex-basis: auto; /* default auto */
   flex: none;
   align-self: auto;
-}
-
-/*body {
-  background-color: #ff1361;
-  overflow: auto;
-}*/
-
-.h1 {
-  font-size: 64pt;
-}
-
-p {
-  font-size: 18pt;
 }
 
 /* --- Hearder --- */
@@ -77,6 +78,26 @@ p {
   }
 }
 
+/* --- NAV --- */
+nav {
+  background-color: #404040;
+}
+
+.nav-list {
+  background-color: white;
+  box-shadow: 00px, 0px, 10px var(--second);
+  margin: 0;
+  padding: 1px 1px;
+  border-radius: 2;
+}
+
+ul,
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
 /* --- Contact --- */
 .contact {
   margin: 5%;
@@ -85,8 +106,8 @@ p {
 }
 
 .contact img {
-  max-width: 20%;
-  max-height: 20%;
+  max-width: 100%;
+  max-height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -98,4 +119,19 @@ p {
 
 .contacttext h2 {
   font-size: 32pt;
+}
+
+/* --- Social Media --- */
+.socialmediaeffect a {
+  transition: border-radius 0.2s linear 0s;
+  transform: rotate(45deg);
+}
+
+.socialmediaeffect i {
+  transition: transform 0.01s linear 0s;
+  transform: rotate(-45deg);
+}
+
+.socialmediaeffect a :hover {
+  border-radius: 0px;
 }
