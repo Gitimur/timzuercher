@@ -18,6 +18,10 @@ p {
   font-size: 18pt;
 }
 
+li {
+  font-size: 18px;
+}
+
 .container {
   display: flex; /* or inline-flex */
   flex-direction: column;
@@ -35,6 +39,43 @@ p {
   flex-basis: auto; /* default auto */
   flex: none;
   align-self: auto;
+}
+
+/* --- NAV --- */
+nav {
+  background-color: none;
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2%;
+  padding: 1%;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item a:hover {
+  list-style: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2%;
 }
 
 /* --- Hearder --- */
@@ -60,10 +101,10 @@ p {
 .toppageanimation {
   background-image: linear-gradient(
     -225deg,
-    #404040 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
+    #003056 0%,
+    #98d2ec 29%,
+    #f1c40f 67%,
+    #e26a6a 100%
   );
   background-size: 200% auto;
   background-clip: text;
@@ -76,26 +117,6 @@ p {
   to {
     background-position: 200% center;
   }
-}
-
-/* --- NAV --- */
-nav {
-  background-color: #404040;
-}
-
-.nav-list {
-  background-color: white;
-  box-shadow: 00px, 0px, 10px var(--second);
-  margin: 0;
-  padding: 1px 1px;
-  border-radius: 2;
-}
-
-ul,
-a {
-  text-decoration: none;
-  cursor: pointer;
-  color: inherit;
 }
 
 /* --- Contact --- */
