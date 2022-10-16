@@ -4,10 +4,13 @@
   --second: #cecece;
   --accent: #003056;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  width: 100%;
 }
 
 .h1 {
@@ -44,7 +47,9 @@ li {
 /* --- NAV --- */
 nav {
   background-color: none;
-  width: 100%;
+  position: absolute;
+  top: 10px;
+  z-index: 1;
 }
 
 .nav-list {
@@ -78,24 +83,32 @@ nav {
   margin-left: 2%;
 }
 
-/* --- Hearder --- */
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* --- Toppage --- */
+
 .toppage {
   background-image: url(../../assets/background_spiez.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 400px;
-  max-height: 400px;
-  /*border-style: dotted;*/
+  min-height: 450px;
+  max-height: 450px;
+  position: relative;
+  z-index: -1;
 }
 
 .toppage h1 {
   font-size: 64pt;
   text-align: center;
-  align-self: center;
-  margin-top: 150px;
+  margin-top: 250px;
   text-transform: uppercase;
-  background-color: rgb(207, 207, 207, 0.3);
+  z-index: 1;
 }
 
 .toppageanimation {
@@ -113,10 +126,37 @@ nav {
   animation: textclip 5s linear infinite;
 }
 
+.toppage:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 56%;
+  bottom: 22%;
+  background-color: rgb(207, 207, 207, 0.4);
+  z-index: 0;
+}
+
 @keyframes textclip {
   to {
     background-position: 200% center;
   }
+}
+
+.credits {
+  position: absolute;
+  right: 2%;
+  bottom: 1%;
+  justify-content: right;
+  align-items: flex-end;
+  font-weight: 500;
+  background-color: rgb(207, 207, 207, 0.4);
+}
+
+.credits a {
+  color: white;
+  z-index: 2;
+  text-decoration: none;
 }
 
 /* --- Contact --- */
@@ -124,6 +164,11 @@ nav {
   margin: 5%;
   align-self: auto;
   background: transparent;
+  position: relative;
+  min-height: 500px;
+  max-height: 500px;
+  padding-top: 3%;
+  padding-bottom: 8%;
 }
 
 .contact img {
@@ -142,17 +187,46 @@ nav {
   font-size: 32pt;
 }
 
+.contacttext a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.contacttext a:hover {
+  color: var(--primary);
+  font-weight: bold;
+}
+
 /* --- Social Media --- */
-.socialmediaeffect a {
-  transition: border-radius 0.2s linear 0s;
-  transform: rotate(45deg);
+.socialmedia {
+  font-size: xx-large;
 }
 
-.socialmediaeffect i {
-  transition: transform 0.01s linear 0s;
-  transform: rotate(-45deg);
+.sm-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+  margin: 0;
+  padding: 10px 0;
 }
 
-.socialmediaeffect a :hover {
-  border-radius: 0px;
+.sm-item {
+  list-style: none;
+  margin-right: 2%;
+  padding: 1%;
+}
+
+.sm-item i {
+  size: 200px;
+}
+
+.sm-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.sm-list a:hover {
+  list-style: none;
+  color: black;
 }

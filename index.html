@@ -6,6 +6,7 @@
   <head>
     <title>Github Portfoliopage Tim Zürcher</title>
     <meta charset="UTF-8" />
+    <meta content="width=device-width, initial scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <link
@@ -14,182 +15,229 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+
+    <script
+      src="https://kit.fontawesome.com/7cf908c78a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
     <!--Navbar-->
     <nav class="container-fluid">
       <ul class="nav-list">
-        <li class="nav-item"><a href="#"><img src="../../assets/Logo_Short_Tim Zürcher Consulting1.png" alt="Logo"></a></li>
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">About me</a></li>
-        <li class="nav-item"><a href="#">Contact</a></li>
+        <li class="nav-item">
+          <a href="#"
+            ><img
+              src="../../assets/Logo_Short_Tim Zürcher Consulting1.png"
+              alt="Logo"
+          /></a>
+        </li>
+        <li class="nav-item"><a href="#contact">Kontakt</a></li>
+        <li class="nav-item"><a href="#Berufserfahrung">Berufserfahrung</a></li>
+        <li class="nav-item"><a href="#Ausbildung">Ausbildung</a></li>
+        <li class="nav-item"><a href="#contactform">Anfrage</a></li>
       </ul>
     </nav>
 
-  
-    <!--Header-->
-    <!--Quelle: https://codepen.io/alvarotrigo/pen/PoKMyNO-->
-    <header>
+    <main>
+      <!--Header-->
+      <!--Quelle: https://codepen.io/alvarotrigo/pen/PoKMyNO-->
       <div class="toppage">
         <div class="container-fluid">
           <div class="row">
             <div class="col">
               <h1 class="toppageanimation">Tim Zürcher</h1>
+            </div>
+          </div>
+          <div class="col">
+            <div class="credits">
+              <a href="https://unsplash.com/@sven_pieren"> By Sven Pieren </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Kontakt-->
+      <section id="contact">
+        <div class="contact">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <img
+                  src="../../assets/Tim_zuercher.png"
+                  alt="Foto Tim Zürcher"
+                />
+              </div>
+              <div class="col">
+                <div class="contacttext">
+                  <h2>
+                    Kontaktinformationen <br />
+                    Tim Zürcher
+                  </h2>
+                  <p>
+                    <a href="mailto:info@timzuercher.ch"
+                      >Mail: info@timzuercher.ch</a
+                    >
+                    <br />
+                    079 963 86 25
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
 
-    <!--Kontakt-->
-    <div class="contact">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <img src="../../assets/Tim_zuercher.png" alt="Foto Tim Zürcher" />
-          </div>
-          <div class="col">
-            <div class="contacttext">
-              <h2>Kontaktinformationen <br>
-                Tim Zürcher</h2>
-              <p>
-                Mail: info@timzuercher.ch <br />
-                Telefon: 079 963 86 25
-              </p>
-            </div>
-          </div>
+        <!--Ext Links zu Social Media & co. -->
+        <div class="socialmedia">
+          <ul class="sm-list">
+            <li class="sm-item">
+              <a href="https://www.linkedin.com/in/timz%C3%BCrcher/">
+                <i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li class="sm-item">
+              <a href="https://www.xing.com/profile/Tim_Zuercher/cv">
+                <i class="fa-brands fa-square-xing"></i
+              ></a>
+            </li>
+            <li class="sm-item">
+              <a href="mailto:info@timzuercher.ch"
+                ><i class="fa-solid fa-square-envelope"></i
+              ></a>
+            </li>
+            <li class="sm-item">
+              <a href="http://timzuercher.ch">
+                <i class="fa-solid fa-globe"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
-    <!--Ext Links zu Social Media & co. -->
-    <div>
-      <a href="https://www.linkedin.com/in/timz%C3%BCrcher/"> linkedin</a>
-      <a href="https://www.xing.com/profile/Tim_Zuercher/cv"> Xing</a>
-      <a href="mailto:info@timzuercher.ch"> Website Tim Zürcher</a>
-      <a href="tel:+41 79 963 86 25"> Telefon</a>
-      <a href="http://timzuercher.ch"> Webpage</a>
-    </div>
+      </section>
 
-    <!--Section Berufserfahrung-->
-    <div>
-      <h2>Berufserfahrung</h2>
-      <ul>
-        <li>
-          Konzeption von digitalen Lösungen im Bereich Customer Relationship
-          Management (CRM) und auf der digitalen Kundenschnittstelle
-        </li>
-        <li>
-          Verantwortung für den CRM-Rollout bei einem grossen Energie
-          Dienstleister und über 50 Tochtergesellschaften
-        </li>
-        <li>
-          Requirements Engineering mit Fokus Automatisierung der
-          Businessprozesse
-        </li>
-        <li>
-          Management des Produkt-Backlog und Definition von User Stories auf
-          Basis der identifizierten Anforderungen
-        </li>
-        <li>Planung, Aufsetzung und Durchführung von Benutzerschulungen</li>
-        <li>
-          Weiterentwicklung von agilen Methoden sowie deren Verankerung
-          innerhalb der Organisation im Rahmen des OKR Frameworks
-        </li>
-        <li>
-          Mitwirken bei der Weiterentwicklung des Enterprise Architecture
-          Management (EAM)
-        </li>
-      </ul>
-    </div>
-
-    <!--Sektion Ausbildung-->
-    <div>
-      <h2>Ausbildung</h2>
-      <ul>
-        <li>
-          Student Bachelor of Science in Wirtschaftsinformatik (2020-2024)
-        </li>
-        <li>Berufsmatur Typ Wirtschaft</li>
-        <li>Kaufmann EFZ Profil E</li>
-      </ul>
-    </div>
-    <!--Sektion Zertifikate-->
-    <div>
-      <h2>Zertifikate</h2>
-      <ul>
-        <li>Professional Scrum Prodcut Owner I</li>
-        <li>Professional Scrum Master I</li>
-        <li>
-          Certified Professinal for Requirements Engineering Foundation Level
-        </li>
-      </ul>
-      <!--Badge 1-->
-      <div
-        data-iframe-width="150"
-        data-iframe-height="270"
-        data-share-badge-id="8c6e788f-398d-456b-a67d-44a0c9ed5bf4"
-        data-share-badge-host="https://www.credly.com"
-      ></div>
-      <script
-        type="text/javascript"
-        async
-        src="//cdn.credly.com/assets/utilities/embed.js"
-      ></script>
-      <!--Badge 2-->
-      <div
-        data-iframe-width="150"
-        data-iframe-height="270"
-        data-share-badge-id="c5705364-f749-4c95-a729-0d91a3a6c7ef"
-        data-share-badge-host="https://www.credly.com"
-      ></div>
-      <script
-        type="text/javascript"
-        async
-        src="//cdn.credly.com/assets/utilities/embed.js"
-      ></script>
-    </div>
-    <!--Kontaktformular-->
-    <!-- Contact -->
-    <article id="contact" class="panel">
-      <header>
-        <h2>Contact Me</h2>
-      </header>
-      <form action="#" method="post">
+      <!--Section Berufserfahrung-->
+      <section id="Berufserfahrung">
         <div>
-          <div class="row">
-            <div class="col-6 col-12-medium">
-              <input type="text" name="name" placeholder="Name" />
-            </div>
-            <div class="col-6 col-12-medium">
-              <input type="text" name="email" placeholder="Email" />
-            </div>
-            <div class="col-12">
-              <input type="text" name="subject" placeholder="Subject" />
-            </div>
-            <div class="col-12">
-              <textarea
-                name="message"
-                placeholder="Message"
-                rows="6"
-              ></textarea>
-            </div>
-            <div class="col-12">
-              <input type="submit" value="Send Message" />
+          <h2>Berufserfahrung</h2>
+          <ul>
+            <li>
+              Konzeption von digitalen Lösungen im Bereich Customer Relationship
+              Management (CRM) und auf der digitalen Kundenschnittstelle
+            </li>
+            <li>
+              Verantwortung für den CRM-Rollout bei einem grossen Energie
+              Dienstleister und über 50 Tochtergesellschaften
+            </li>
+            <li>
+              Requirements Engineering mit Fokus Automatisierung der
+              Businessprozesse
+            </li>
+            <li>
+              Management des Produkt-Backlog und Definition von User Stories auf
+              Basis der identifizierten Anforderungen
+            </li>
+            <li>Planung, Aufsetzung und Durchführung von Benutzerschulungen</li>
+            <li>
+              Weiterentwicklung von agilen Methoden sowie deren Verankerung
+              innerhalb der Organisation im Rahmen des OKR Frameworks
+            </li>
+            <li>
+              Mitwirken bei der Weiterentwicklung des Enterprise Architecture
+              Management (EAM)
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Sektion Ausbildung-->
+      <section id="Ausbildung">
+        <div>
+          <h2>Ausbildung</h2>
+          <ul>
+            <li>
+              Student Bachelor of Science in Wirtschaftsinformatik (2020-2024)
+            </li>
+            <li>Berufsmatur Typ Wirtschaft</li>
+            <li>Kaufmann EFZ Profil E</li>
+          </ul>
+        </div>
+        <!--Sektion Zertifikate-->
+        <div>
+          <h2>Zertifikate</h2>
+          <ul>
+            <li>Professional Scrum Prodcut Owner I</li>
+            <li>Professional Scrum Master I</li>
+            <li>
+              Certified Professinal for Requirements Engineering Foundation
+              Level
+            </li>
+          </ul>
+          <!--Badge 1-->
+          <div
+            data-iframe-width="150"
+            data-iframe-height="270"
+            data-share-badge-id="8c6e788f-398d-456b-a67d-44a0c9ed5bf4"
+            data-share-badge-host="https://www.credly.com"
+          ></div>
+          <script
+            type="text/javascript"
+            async
+            src="//cdn.credly.com/assets/utilities/embed.js"
+          ></script>
+          <!--Badge 2-->
+          <div
+            data-iframe-width="150"
+            data-iframe-height="270"
+            data-share-badge-id="c5705364-f749-4c95-a729-0d91a3a6c7ef"
+            data-share-badge-host="https://www.credly.com"
+          ></div>
+          <script
+            type="text/javascript"
+            async
+            src="//cdn.credly.com/assets/utilities/embed.js"
+          ></script>
+        </div>
+      </section>
+
+      <!--Kontaktformular-->
+      <!-- Contact -->
+      <article id="contactform" class="panel">
+        <header>
+          <h2>Contact Me</h2>
+        </header>
+        <form action="#" method="post">
+          <div>
+            <div class="row">
+              <div class="col-6 col-12-medium">
+                <input type="text" name="name" placeholder="Name" />
+              </div>
+              <div class="col-6 col-12-medium">
+                <input type="text" name="email" placeholder="Email" />
+              </div>
+              <div class="col-12">
+                <input type="text" name="subject" placeholder="Subject" />
+              </div>
+              <div class="col-12">
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  rows="6"
+                ></textarea>
+              </div>
+              <div class="col-12">
+                <input type="submit" value="Send Message" />
+              </div>
             </div>
           </div>
-        </div>
-      </form>
-    </article>
+        </form>
+      </article>
 
-    
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"
+      ></script>
+    </main>
   </body>
 
   <footer></footer>
