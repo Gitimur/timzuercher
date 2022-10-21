@@ -1,9 +1,13 @@
 ### Fragen: 
-Wie kann ich einen Hintergrund hinterlegen bei Überschrift: 
+Prettier fehler --> ? 
+
 
 
 #ALG
 https://github.com/emmabostian/developer-portfolios
+
+#IMG
+https://unsplash.com/
 
 
 #CSS
@@ -13,12 +17,14 @@ https://alvarotrigo.com/blog/animated-backgrounds-css/
 ##CSS-Text-Animations
 https://alvarotrigo.com/blog/css-text-animations/
 
-
-##CSS Textbausteine
-# Überschrift Tim Zürcher
-
 ##CSS Flexbox
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+##CSS Mesher
+https://csshero.org/mesher/
+
+##CSS Flexyboxes
+https://the-echoplex.net/flexyboxes/?fixed-height=on&display=flex&flex-direction=column&flex-wrap=nowrap&justify-content=flex-start&align-items=flex-start&align-content=stretch&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto
 
 
 
@@ -28,3 +34,7 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
 #js
+
+
+
+https://www.youtube.com/watch?v=ZPb10kOQv0c
