@@ -1,14 +1,11 @@
 <!DOCTYPE html>
-<!-- 
-    Beschreibung siehe README.md
--->
 <html lang="de">
   <head>
-    <title>Github Portfoliopage Tim Zürcher</title>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
-    <meta content="width=device-width, initial scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-
+    <meta content="width=device, initial-scale=1" , name="viewport" />
+    <title>Tim Zürcher Portfoliopage</title>
+    <!--
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,226 +16,185 @@
     <script
       src="https://kit.fontawesome.com/7cf908c78a.js"
       crossorigin="anonymous"
-    ></script>
+    ></script>-->
   </head>
 
   <body>
-    <!--Navbar-->
-    <nav class="container-fluid">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="#"
-            ><img
-              src="../../assets/Logo_Short_Tim Zürcher Consulting1.png"
-              alt="Logo"
-          /></a>
-        </li>
-        <li class="nav-item"><a href="#contact">Kontakt</a></li>
-        <li class="nav-item"><a href="#Berufserfahrung">Berufserfahrung</a></li>
-        <li class="nav-item"><a href="#Ausbildung">Ausbildung</a></li>
-        <li class="nav-item"><a href="#contactform">Anfrage</a></li>
-      </ul>
+    <script src="scripts.js"></script>
+    <div id="reference"></div>
+    <nav id="main-nav">
+      <a href="#toppage"><span>Home</span></a>
+      <a href="#profile"><span>Über mich</span></a>
+      <a href="#cv"><span>Berufliche Erfahrung</span></a>
+      <a href="#portfolio"><span>Ausbildung</span></a>
+      <a href="#contact"><span>Kontakt</span></a>
     </nav>
 
     <main>
-      <!--Header-->
-      <!--Quelle: https://codepen.io/alvarotrigo/pen/PoKMyNO-->
-      <div class="toppage">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col">
-              <h1 class="toppageanimation">Tim Zürcher</h1>
+      <section id="toppage">
+        <h1 class="toppageanimation">Tim Zürcher</h1>
+        <div class="credits">
+          <a href="https://unsplash.com/@sven_pieren">by Sven Pieren</a>
+        </div>
+      </section>
+
+      <section id="profile">
+        <div class="sectiontitle">
+          <h1>ÜBER MICH</h1>
+        </div>
+        <div class="profileimg">
+          <img src="assets/Tim_zuercher.png" alt="Tim Zürcher" />
+        </div>
+        <div class="profiledetails">
+          <h3>Adresse</h3>
+          <p>
+            Tim Zürcher <br />
+            Bubenbergstrasse 20 <br />
+            3700 Spiez
+          </p>
+          <div class="socialmedia">
+            <h3>Social Media</h3>
+            <ul class="icons">
+              <li>
+                <a href="https://www.linkedin.com/in/timz%C3%BCrcher/">
+                  <img src="assets/linkedin-icon-2.svg" alt="Linkedin" />
+                  <span>LinkedIn</span></a
+                >
+                <div class="flex-spacer"></div>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/Tim_Zuercher/cv">
+                  <img src="assets/xing-icon.svg" alt="Xing" />
+                  <span>Xing</span></a
+                >
+                <div class="flex-spacer"></div>
+              </li>
+              <li>
+                <a href="mailto:info@timzuercher.ch">
+                  <img src="assets/letter.svg" alt="Brief" />
+                  <span>E-Mail</span></a
+                >
+                <div class="flex-spacer"></div>
+              </li>
+              <li>
+                <a href="https://www.timzuercher.ch">
+                  <img src="assets/webpage.svg" alt="Webseite" />
+                  <span>Webseite timzuercher.ch</span></a
+                >
+                <div class="flex-spacer"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="cv">
+        <div class="sectiontitle">
+          <h1>BERUFLICHE ERFAHRUNG</h1>
+        </div>
+        <h2></h2>
+        <div class="timeline">
+          <div class="timeline-entry">
+            <div class="tl-title">Product Owner Digital Business</div>
+            <div class="location-dates">
+              <div class="tl-location">BKW Energie AG, Bern</div>
+              <div class="tl-spacer"></div>
+              <div class="tl-dates">2020 - Heute</div>
+            </div>
+            <div>
+              <span>Aufgaben</span>
+              <ul>
+                <li>Konzeption von digitalen Lösungen im Bereich (CRM)</li>
+                <li>
+                  Verantwortung der CRM-Rollouts über die gesamte BKW-Gruppe
+                </li>
+                <li>Management des Produkt-Backlog</li>
+                <li>
+                  Definition von User Stories basierend auf identifizierten
+                  Anforderungen
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="col">
-            <div class="credits">
-              <a href="https://unsplash.com/@sven_pieren"> By Sven Pieren </a>
+          <div class="timeline-entry">
+            <div class="tl-title">Business Analyst CRM</div>
+            <div class="location-dates">
+              <div class="tl-location">BKW Energie AG, Bern</div>
+              <div class="tl-spacer"></div>
+              <div class="tl-dates">2018-2020</div>
+            </div>
+            <div>
+              <span>Aufgaben</span>
+              <ul>
+                <li>Requirements Engineering und Erstellenvon User Stories</li>
+                <li>
+                  Optimierung der Userexperience in Microsoft Dynamics 365
+                </li>
+                <li>
+                  Durchführung von Fachtests und Sicherstellen der Abnahme
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <div class="tl-title">Sachbearbeiter CRM</div>
+            <div class="location-dates">
+              <div class="tl-location">BKW Energie AG, Bern</div>
+              <div class="tl-spacer"></div>
+              <div class="tl-dates">2017 - 2018</div>
+            </div>
+            <div>
+              <span>Aufgaben</span>
+              <ul>
+                <li>Planungund Durchführung von Benutzerschulungen</li>
+                <li>
+                  Durchführung von Fachtests und Sicherstellen der Abnahme
+                </li>
+                <li>2nd Level Support</li>
+              </ul>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!--Kontakt-->
-      <section id="contact">
-        <div class="contact">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col">
-                <img
-                  src="../../assets/Tim_zuercher.png"
-                  alt="Foto Tim Zürcher"
-                />
-              </div>
-              <div class="col">
-                <div class="contacttext">
-                  <h2>
-                    Kontaktinformationen <br />
-                    Tim Zürcher
-                  </h2>
+      <section id="portfolio"></section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="sectiontitle">
+            <h2>Contact me</h2>
+          </div>
+          <div>
+            <p>Ich freue mich auf Ihre Kontaktaufnahme!</p>
+          </div>
+          <div class="row" data-aos="fade-in">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>Dullstroom, Mpumalanga, South Africa 1110</p>
+                </div>
+
+                <div class="email">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
                   <p>
-                    <a href="mailto:info@timzuercher.ch"
-                      >Mail: info@timzuercher.ch</a
+                    <a href="mailto:nhlanhlahasane@hotmail"
+                      >nhlanhlahasane@hotmail.com</a
                     >
-                    <br />
-                    079 963 86 25
                   </p>
+                </div>
+
+                <div class="phone">
+                  <i class="icofont-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+27 64 917 1144</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <!--Ext Links zu Social Media & co. -->
-        <div class="socialmedia">
-          <ul class="sm-list">
-            <li class="sm-item">
-              <a href="https://www.linkedin.com/in/timz%C3%BCrcher/">
-                <i class="fa-brands fa-linkedin"></i
-              ></a>
-            </li>
-            <li class="sm-item">
-              <a href="https://www.xing.com/profile/Tim_Zuercher/cv">
-                <i class="fa-brands fa-square-xing"></i
-              ></a>
-            </li>
-            <li class="sm-item">
-              <a href="mailto:info@timzuercher.ch"
-                ><i class="fa-solid fa-square-envelope"></i
-              ></a>
-            </li>
-            <li class="sm-item">
-              <a href="http://timzuercher.ch">
-                <i class="fa-solid fa-globe"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
       </section>
-
-      <!--Section Berufserfahrung-->
-      <section id="Berufserfahrung">
-        <div>
-          <h2>Berufserfahrung</h2>
-          <ul>
-            <li>
-              Konzeption von digitalen Lösungen im Bereich Customer Relationship
-              Management (CRM) und auf der digitalen Kundenschnittstelle
-            </li>
-            <li>
-              Verantwortung für den CRM-Rollout bei einem grossen Energie
-              Dienstleister und über 50 Tochtergesellschaften
-            </li>
-            <li>
-              Requirements Engineering mit Fokus Automatisierung der
-              Businessprozesse
-            </li>
-            <li>
-              Management des Produkt-Backlog und Definition von User Stories auf
-              Basis der identifizierten Anforderungen
-            </li>
-            <li>Planung, Aufsetzung und Durchführung von Benutzerschulungen</li>
-            <li>
-              Weiterentwicklung von agilen Methoden sowie deren Verankerung
-              innerhalb der Organisation im Rahmen des OKR Frameworks
-            </li>
-            <li>
-              Mitwirken bei der Weiterentwicklung des Enterprise Architecture
-              Management (EAM)
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!--Sektion Ausbildung-->
-      <section id="Ausbildung">
-        <div>
-          <h2>Ausbildung</h2>
-          <ul>
-            <li>
-              Student Bachelor of Science in Wirtschaftsinformatik (2020-2024)
-            </li>
-            <li>Berufsmatur Typ Wirtschaft</li>
-            <li>Kaufmann EFZ Profil E</li>
-          </ul>
-        </div>
-        <!--Sektion Zertifikate-->
-        <div>
-          <h2>Zertifikate</h2>
-          <ul>
-            <li>Professional Scrum Prodcut Owner I</li>
-            <li>Professional Scrum Master I</li>
-            <li>
-              Certified Professinal for Requirements Engineering Foundation
-              Level
-            </li>
-          </ul>
-          <!--Badge 1-->
-          <div
-            data-iframe-width="150"
-            data-iframe-height="270"
-            data-share-badge-id="8c6e788f-398d-456b-a67d-44a0c9ed5bf4"
-            data-share-badge-host="https://www.credly.com"
-          ></div>
-          <script
-            type="text/javascript"
-            async
-            src="//cdn.credly.com/assets/utilities/embed.js"
-          ></script>
-          <!--Badge 2-->
-          <div
-            data-iframe-width="150"
-            data-iframe-height="270"
-            data-share-badge-id="c5705364-f749-4c95-a729-0d91a3a6c7ef"
-            data-share-badge-host="https://www.credly.com"
-          ></div>
-          <script
-            type="text/javascript"
-            async
-            src="//cdn.credly.com/assets/utilities/embed.js"
-          ></script>
-        </div>
-      </section>
-
-      <!--Kontaktformular-->
-      <!-- Contact -->
-      <article id="contactform" class="panel">
-        <header>
-          <h2>Contact Me</h2>
-        </header>
-        <form action="#" method="post">
-          <div>
-            <div class="row">
-              <div class="col-6 col-12-medium">
-                <input type="text" name="name" placeholder="Name" />
-              </div>
-              <div class="col-6 col-12-medium">
-                <input type="text" name="email" placeholder="Email" />
-              </div>
-              <div class="col-12">
-                <input type="text" name="subject" placeholder="Subject" />
-              </div>
-              <div class="col-12">
-                <textarea
-                  name="message"
-                  placeholder="Message"
-                  rows="6"
-                ></textarea>
-              </div>
-              <div class="col-12">
-                <input type="submit" value="Send Message" />
-              </div>
-            </div>
-          </div>
-        </form>
-      </article>
-
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-        crossorigin="anonymous"
-      ></script>
     </main>
   </body>
-
-  <footer></footer>
 </html>
