@@ -1,6 +1,6 @@
 /* --- Über mich --- */
 
-#profile {
+#aboutme {
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -9,28 +9,13 @@
   background-color: var(--background2);
 }
 
-.sectiontitle {
-  background-image: url("assets/oscar-estrela-schott-aaMfK5Dpwjw-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 15vh;
-  background-position: center;
+.container {
   display: flex;
-  place-items: center;
-  justify-content: space-around;
-  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-
-.sectiontitle h1 {
-  text-decoration: underline;
-  color: white;
-}
-
 .profileimg img {
-  max-width: 80vw;
-  height: auto;
-  max-height: 800px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -39,7 +24,7 @@
   z-index: 1;
 }
 
-.profiledetails {
+.aboutmedetails {
   display: flex;
   min-width: 90vw;
   margin-left: 2em;

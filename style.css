@@ -1,3 +1,5 @@
+/* Basic Styles */
+
 :root {
   --primary: #404040;
   --second: #cecece;
@@ -34,7 +36,7 @@ p {
 }
 
 h1 {
-  font-size: 24pt;
+  font-size: 32pt;
 }
 
 h2 {
@@ -45,71 +47,7 @@ h3 {
   font-size: 14pt;
 }
 
-/* --- Navigation --- */
-
-#main-nav {
-  display: none;
-  position: absolute;
-  top: 2.5vh;
-  z-index: 1;
-  /*display: flex;*/
-  gap: 1em;
-  margin-left: 3em;
-  margin-right: 2em;
-  width: 80vw;
-  background-color: var(--background2);
-  justify-content: flex-end;
-  place-items: center;
-  max-width: 100%;
-}
-
-#main-nav a {
-  background-color: none;
-  color: var(--accent);
-  text-decoration: none;
-  padding: 1.5em 1em;
-  font-size: large;
-}
-
-#main-nav a:hover {
-  color: var(--accent);
-  font-weight: bolder;
-  font-size: larger;
-}
-
-#mobile-nav {
-  position: fixed;
-  z-index: 5;
-  top: 93vh;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5em;
-  background-color: red;
-  height: 64px;
-  width: 64px;
-}
-
-#mobile-nav a {
-  position: absolute;
-  top: -10em;
-  width: 0;
-  overflow: hidden;
-}
-
-/*
-#reference {
-  position: absolute;
-  top: 90vh;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-}
-*/
-
 /* --- Toppage --- */
-
 #toppage {
   background-image: url("assets/spiez.jpg");
   background-repeat: no-repeat;
@@ -119,6 +57,7 @@ h3 {
   place-items: center;
   justify-content: space-around;
   position: relative;
+  height: 95vh;
 }
 
 .toppageanimation {
@@ -134,24 +73,11 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 7s linear infinite;
-  font-size: 7vw;
+  font-size: 10vw;
   text-align: center;
-  margin-top: 250px;
   text-transform: uppercase;
   z-index: 1;
 }
-
-/*
-.toppage:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 10px;
-  bottom: 20px;
-  background-color: red;
-  z-index: -3;
-}*/
 
 @keyframes textclip {
   to {
@@ -176,4 +102,24 @@ h3 {
   font-weight: bolder;
   font-size: larger;
   text-decoration: none;
+}
+
+.sectiontitle {
+  background-image: url("assets/oscar-estrela-schott-aaMfK5Dpwjw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 15vh;
+  background-position: center;
+  display: flex;
+  place-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+
+/* Section Title */
+
+.sectiontitle h1 {
+  text-decoration: underline;
+  color: white;
 }
