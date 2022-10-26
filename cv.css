@@ -1,0 +1,85 @@
+/* CV */
+#cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline {
+  border-left: 4px solid var(--primary);
+  padding: 3em 0;
+  top: 1.3em;
+  left: 1.3em;
+  position: relative;
+}
+
+.timeline:before {
+  content: "heute";
+  position: absolute;
+  top: -1.3em;
+  left: -1.3em;
+  font-weight: bold;
+}
+
+.timeline:after {
+  content: "2014";
+  position: absolute;
+  bottom: -1.2em;
+  left: -1.2em;
+  font-weight: bold;
+}
+
+.timeline-entry {
+  position: relative;
+  left: 1.5em;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.timeline-entry:before {
+  content: "";
+  height: 8px;
+  width: 8px;
+  position: absolute;
+  background-color: var(--primary);
+  top: 15%;
+  border: 4px solid var(--second);
+  left: -1.8em;
+  border-radius: 50em;
+}
+
+.tl-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tl-dates {
+  display: flex;
+  font-size: 14px;
+  border-bottom: 1px solid var(--second);
+  margin-bottom: 6px;
+  padding-bottom: 2px;
+}
+
+/* Muss noch aus HTML gelöscht werden */
+.tl-spacer {
+  margin: 0 3px;
+  width: 1;
+  background: var(--primary);
+}
+
+.timeline-entry ul {
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-bottom: 7vh;
+
+  font-size: 14px;
+  list-style: unset;
+}
+
+.timeline span {
+  font-size: 14px;
+  font-weight: bold;
+}

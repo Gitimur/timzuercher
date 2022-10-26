@@ -12,9 +12,14 @@ function addStickClasses() {
   }
 }
 
-/*
-  #003056 0%,
-  #98d2ec 29%,
-  #f1c40f 67%,
-  #e26a6a 100%
-  */
+document.getElementById("mobile-nav").addEventListener("click", expandNav);
+
+function expandNav() {
+  let nvaElements = document.getElementsByClassName("mobile-nav-option");
+  let position = 0;
+  let zIndex = -1;
+  for (let element of nvaElements) {
+    element.style.bottom = `${position}rem`;
+    position += 4.5;
+  }
+}

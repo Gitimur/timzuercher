@@ -1,0 +1,16 @@
+#contact {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  place-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#contact input {
+  border: 1px solid var(--primary);
+  background-color: transparent;
+  max-width: 80vw;
+  min-width: 60vw;
+  padding: 0.5em;
+}
