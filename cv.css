@@ -5,10 +5,14 @@
   align-items: center;
 }
 
+#cv .sectiontitle {
+  margin-bottom: 40px;
+}
+
 .timeline {
   border-left: 4px solid var(--primary);
-  padding: 3em 0;
-  top: 1.3em;
+  padding: 4em 0;
+  top: 1.9em;
   left: 1.3em;
   position: relative;
 }
@@ -34,7 +38,7 @@
   left: 1.5em;
   display: flex;
   flex-direction: column;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .timeline-entry:before {
@@ -50,7 +54,7 @@
 }
 
 .tl-title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -62,7 +66,6 @@
   padding-bottom: 2px;
 }
 
-/* Muss noch aus HTML gelöscht werden */
 .tl-spacer {
   margin: 0 3px;
   width: 1;

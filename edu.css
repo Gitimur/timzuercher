@@ -1,14 +1,15 @@
-/*Zertifikate Ausbildung*/
+/*Zertifikate & Ausbildung*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 
-#portfolio {
+#edu {
   background-color: var(--background2);
 }
 
-.certificate {
-  padding-top: 5%;
-  padding-bottom: 5%;
+.edu {
+  position: relative;
+  top: 2em;
 }
+
 .container {
   background: none;
   padding: 15px 10%;

@@ -1,7 +1,6 @@
 /* --- Über mich --- */
 
 #aboutme {
-  display: flex;
   flex-direction: column;
   place-items: center;
   position: relative;
@@ -9,28 +8,17 @@
   background-color: var(--background2);
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+#aboutme .sectiontitle {
+  margin-bottom: 60px;
 }
+
 .profileimg img {
   display: flex;
   flex-direction: column;
   place-items: center;
   position: relative;
   justify-content: center;
-  z-index: 1;
-}
-
-.aboutmedetails {
-  display: flex;
-  min-width: 90vw;
-  margin-left: 2em;
-  margin-right: 2em;
-  flex-direction: column;
-  place-items: center;
+  max-width: 30%;
 }
 
 .socialmedia {
