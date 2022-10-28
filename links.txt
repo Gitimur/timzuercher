@@ -38,3 +38,43 @@ https://the-echoplex.net/flexyboxes/?fixed-height=on&display=flex&flex-direction
 
 
 https://www.youtube.com/watch?v=ZPb10kOQv0c
+
+
+
+
+
+        <div class="socialmedia">
+          <h3>Social Media</h3>
+          <ul class="icons">
+            <li>
+              <a href="https://www.linkedin.com/in/timz%C3%BCrcher/">
+                <img src="assets/linkedin-icon-2.svg" alt="Linkedin" />
+                <span>LinkedIn</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+            <li>
+              <a href="https://www.xing.com/profile/Tim_Zuercher/cv">
+                <img src="assets/xing-icon.svg" alt="Xing" />
+                <span>Xing</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+            <li>
+              <a href="mailto:info@timzuercher.ch">
+                <img src="assets/letter.svg" alt="Brief" />
+                <span>E-Mail</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+            <li>
+              <a href="https://www.timzuercher.ch">
+                <img src="assets/webpage.svg" alt="Webseite" />
+                <span>Webseite timzuercher.ch</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+          </ul>
+        </div>
+
+

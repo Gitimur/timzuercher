@@ -1,0 +1,61 @@
+/* --- Über mich --- */
+
+#aboutme {
+  flex-direction: column;
+  place-items: center;
+  position: relative;
+  height: 100vh;
+  background-color: var(--background2);
+}
+
+#aboutme .sectiontitle {
+  margin-bottom: 60px;
+}
+
+.profileimg img {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  position: relative;
+  justify-content: center;
+  max-width: 30%;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.icons {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.icons li {
+  display: flex;
+  place-items: center;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icons li a {
+  display: flex;
+  place-items: center;
+  gap: 15px;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+.icons li img {
+  width: 32px;
+}
+
+.flex-spacer {
+  flex: 1 1 auto;
+}
