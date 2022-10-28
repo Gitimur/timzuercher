@@ -42,79 +42,39 @@ https://www.youtube.com/watch?v=ZPb10kOQv0c
 
 
 
-<script src="scripts.js"></script>
-    <div id="reference"></div>
-    <nav id="main-nav">
-      <!--<a href="#toppage"><span>Home</span></a>-->
-      <a href="#profile"><span>Über mich</span></a>
-      <a href="#cv"><span>Berufliche Erfahrung</span></a>
-      <a href="#portfolio"><span>Ausbildung</span></a>
-      <a href="#contact"><span>Kontakt</span></a>
-    </nav>
 
-    <nav id="mobile-nav">
-      <!--<a href="#toppage"><span>Home</span></a>-->
-      <a href="#profile" class="mobile-nav-script"><span>Über mich</span></a>
-      <a href="#cv" class="mobile-nav-script"
-        ><span>Berufliche Erfahrung</span></a
-      >
-      <a href="#portfolio" class="mobile-nav-script"><span>Ausbildung</span></a>
-      <a href="#contact" class="mobile-nav-script"><span>Kontakt</span></a>
-    </nav>
-
-    <script>
-      document
-        .getElementById("mobile-nav")
-        .addEventListener("click", expandNav);
-
-      function expandNav() {
-        let nvaElements = document.getElementsByClassName("mobile-nav-option");
-        let position = 0;
-        let zIndex = -1;
-        for (let element of nvaElements) {
-          element.style.top = `${position}rem`;
-          element.style.zIndex = `${zIndex}`;
-          position += 4.5;
-          zIndex--;
-          element.style.width
-            ? (element.style.with = null)
-            : (element.style.width = "4rem");
-        }
-      }
-    </script>
+        <div class="socialmedia">
+          <h3>Social Media</h3>
+          <ul class="icons">
+            <li>
+              <a href="https://www.linkedin.com/in/timz%C3%BCrcher/">
+                <img src="assets/linkedin-icon-2.svg" alt="Linkedin" />
+                <span>LinkedIn</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+            <li>
+              <a href="https://www.xing.com/profile/Tim_Zuercher/cv">
+                <img src="assets/xing-icon.svg" alt="Xing" />
+                <span>Xing</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+            <li>
+              <a href="mailto:info@timzuercher.ch">
+                <img src="assets/letter.svg" alt="Brief" />
+                <span>E-Mail</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+            <li>
+              <a href="https://www.timzuercher.ch">
+                <img src="assets/webpage.svg" alt="Webseite" />
+                <span>Webseite timzuercher.ch</span></a
+              >
+              <div class="flex-spacer"></div>
+            </li>
+          </ul>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <h1>contact</h1>
-        <input id="firstname" type="text" placeholder="Vorname" />
-        <input id="surname" type="text" placeholder="Nachname" />
-        <input id="street" type="text" placeholder="Strasse" />
-        <input
-          id="postalcode"
-          type="number"
-          maxlength="4"
-          pattern="^0[1-9]|[1-9]\d$"
-          placeholder="Postleitzahl"
-        />
-        <input id="city" type="text" placeholder="Ort" />
-        <input id="email" type="email" placeholder="email" />
-        <textarea
-          name="comment"
-          id="comment"
-          cols="30"
-          rows="10"
-          placeholder="Nachricht"
-        ></textarea>
-        <button>Senden</button>
