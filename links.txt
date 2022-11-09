@@ -1,14 +1,15 @@
 ### Fragen: 
-Prettier fehler --> ? 
+- Wieso Nav nicht einblendbar?
+- Zeitachse länge vom Strich ?
 
 
+### Linksammlung: 
 
 #ALG
 https://github.com/emmabostian/developer-portfolios
 
 #IMG
 https://unsplash.com/
-
 
 #CSS
 ##CSS Backgrounds#
@@ -27,54 +28,10 @@ https://csshero.org/mesher/
 https://the-echoplex.net/flexyboxes/?fixed-height=on&display=flex&flex-direction=column&flex-wrap=nowrap&justify-content=flex-start&align-items=flex-start&align-content=stretch&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto&order%5B%5D=0&flex-grow%5B%5D=0&flex-shrink%5B%5D=1&flex-basis%5B%5D=auto&align-self%5B%5D=auto
 
 
-
 #HTML
-
-
 
 
 #js
 
 
-
 https://www.youtube.com/watch?v=ZPb10kOQv0c
-
-
-
-
-
-        <div class="socialmedia">
-          <h3>Social Media</h3>
-          <ul class="icons">
-            <li>
-              <a href="https://www.linkedin.com/in/timz%C3%BCrcher/">
-                <img src="assets/linkedin-icon-2.svg" alt="Linkedin" />
-                <span>LinkedIn</span></a
-              >
-              <div class="flex-spacer"></div>
-            </li>
-            <li>
-              <a href="https://www.xing.com/profile/Tim_Zuercher/cv">
-                <img src="assets/xing-icon.svg" alt="Xing" />
-                <span>Xing</span></a
-              >
-              <div class="flex-spacer"></div>
-            </li>
-            <li>
-              <a href="mailto:info@timzuercher.ch">
-                <img src="assets/letter.svg" alt="Brief" />
-                <span>E-Mail</span></a
-              >
-              <div class="flex-spacer"></div>
-            </li>
-            <li>
-              <a href="https://www.timzuercher.ch">
-                <img src="assets/webpage.svg" alt="Webseite" />
-                <span>Webseite timzuercher.ch</span></a
-              >
-              <div class="flex-spacer"></div>
-            </li>
-          </ul>
-        </div>
-
-

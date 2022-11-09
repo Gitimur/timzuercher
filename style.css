@@ -19,8 +19,9 @@ body {
 }
 
 section {
-  height: 100vh;
+  height: auto;
   width: 100vw;
+  max-width: 100%;
 }
 
 main {
@@ -87,7 +88,7 @@ h3 {
 
 .credits {
   position: absolute;
-  bottom: 1em;
+  bottom: 2em;
   right: 2em;
 }
 
@@ -104,6 +105,8 @@ h3 {
   text-decoration: none;
 }
 
+/* Section Title */
+
 .sectiontitle {
   background-image: url("assets/oscar-estrela-schott-aaMfK5Dpwjw-unsplash.jpg");
   background-repeat: no-repeat;
@@ -116,8 +119,6 @@ h3 {
   justify-content: space-around;
   position: relative;
 }
-
-/* Section Title */
 
 .sectiontitle h1 {
   text-decoration: underline;

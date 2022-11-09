@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device, initial-scale=1" , name="viewport" />
+    <title>Tim Zürcher Portfoliopage</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="aboutme.css" />
     <link rel="stylesheet" href="edu.css" />
     <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="cv.css" />
-    <meta charset="UTF-8" />
-    <meta content="width=device, initial-scale=1" , name="viewport" />
-    <title>Tim Zürcher Portfoliopage</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -27,49 +27,51 @@
     <!-- Navigation
       Quelle: Bootstrap.com 
       https://getbootstrap.com/docs/5.0/components/navbar/ -->
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#aboutme">ÜBER MICH</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#cv">BERUFLICHE ERFAHRUNG</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#edu">AUSBILDUNG</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">KONTAKT</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+    <section id="nav">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutme">ÜBER MICH</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cv">BERUFLICHE ERFAHRUNG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#edu">AUSBILDUNG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">KONTAKT</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Senden
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </section>
+
     <!--Main Content-->
     <main>
       <!-- Toppage / Frontpage -->
@@ -79,68 +81,89 @@
           <a href="https://unsplash.com/@sven_pieren">by Sven Pieren</a>
         </div>
       </section>
+
+      <!-- About me / Über mich -->
       <section id="aboutme">
         <div class="sectiontitle">
           <h1>ÜBER MICH</h1>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col">
-            </div>
-            <div class="col-5">
-              <div class="profileimg">
-                <img src="assets/Tim_zuercher.png" alt="Tim Zürcher" />
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="aboutmedetails">
-                <h3>Adresse</h3>
-                <p>
-                  Tim Zürcher <br />
-                  Bubenbergstrasse 20 <br />
-                  3700 Spiez
-                </p>
-                <div class="socialmedia">
-                  <h3>Social Media</h3>
-                  <ul class="icons">
-                    <li>
-                      <a href="https://www.linkedin.com/in/timz%C3%BCrcher/">
-                        <img src="assets/linkedin-icon-2.svg" alt="Linkedin" />
-                        <span>LinkedIn</span></a
-                      >
-                      <div class="flex-spacer"></div>
-                    </li>
-                    <li>
-                      <a href="https://www.xing.com/profile/Tim_Zuercher/cv">
-                        <img src="assets/xing-icon.svg" alt="Xing" />
-                        <span>Xing</span></a
-                      >
-                      <div class="flex-spacer"></div>
-                    </li>
-                    <li>
-                      <a href="mailto:info@timzuercher.ch">
-                        <img src="assets/letter.svg" alt="Brief" />
-                        <span>E-Mail</span></a
-                      >
-                      <div class="flex-spacer"></div>
-                    </li>
-                    <li>
-                      <a href="https://www.timzuercher.ch">
-                        <img src="assets/webpage.svg" alt="Webseite" />
-                        <span>Webseite timzuercher.ch</span></a
-                      >
-                      <div class="flex-spacer"></div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-            </div>
+        <div class="profileimg">
+          <img src="assets/Tim_zuercher.png" alt="Tim Zürcher" />
+        </div>
+        <div class="aboutmedetails">
+          <h3>Tim Zürcher</h3>
+          <p>
+            Ich komme aus dem schönen Berner Oberland und arbeite als Product
+            Owner bei der BKW Energie AG.
+          </p>
+          <br />
+
+          <h3>Adresse</h3>
+          <p>Bubenbergstrasse 20, 3700 Spiez</p>
+
+          <!-- Google Maps iframe-->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10948.066375410284!2d7.677395250061121!3d46.685673486151885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478fae7da9c07b03%3A0x1b8929562d8c67bc!2sBubenbergstrasse%2020%2C%203700%20Spiez!5e0!3m2!1sde!2sch!4v1666879925709!5m2!1sde!2sch"
+            width="80%"
+            height="auto"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <!-- Social Media 
+        Quelle: Bootstrap.como https://icons.getbootstrap.com/ -->
+
+        <div class="socialmedia">
+          <h3>Social Media</h3>
+          <div class="d-grid gap-2 d-md-block">
+            <a
+              class="btn btn-primary"
+              style="background-color: #0082ca"
+              href="https://www.linkedin.com/in/timz%C3%BCrcher/"
+              role="button"
+              ><i class="fab fa-linkedin-in me-2"></i>LinkedIn</a
+            >
+
+            <a
+              class="btn btn-primary"
+              style="background-color: #333333"
+              href="https://github.com/Gitimur/"
+              role="button"
+              ><i class="fab fa-github"></i> Github</a
+            >
+
+            <a
+              class="btn btn-primary"
+              style="background-color: #b7df4b"
+              href="https://www.xing.com/profile/Tim_Zuercher/cv"
+              role="button"
+              ><i class="fab fa-xing"></i> Xing</a
+            >
+
+            <a
+              class="btn btn-primary"
+              style="background-color: #ffac44"
+              href="mailto:info@timzuercher.ch"
+              role="button"
+              ><i class="far fa-envelope"></i> Mail</a
+            >
+            <a
+              class="btn btn-primary"
+              style="background-color: #c61118"
+              href="https://timzuercher.ch/"
+              role="button"
+              ><i class="fas fa-globe"></i> Website</a
+            >
           </div>
-        
-      <!--Berufliche Erfahrung / CV -->          
+        </div>
       </section>
+
+      <!--Berufliche Erfahrung / CV 
+      Quelle: https://veracahrim.github.io/website-example/ -->
+
       <section id="cv">
         <div class="sectiontitle">
           <h1>BERUFLICHE ERFAHRUNG</h1>
@@ -156,15 +179,9 @@
             <div>
               <span>Aufgaben</span>
               <ul>
-                <li>Konzeption von digitalen Lösungen im Bereich (CRM)</li>
-                <li>
-                  Verantwortung der CRM-Rollouts über die gesamte BKW-Gruppe
-                </li>
+                <li>Konzeption von digitalen CRM Lösungen</li>
+                <li>Verantwortung der CRM-Rollouts</li>
                 <li>Management des Produkt-Backlog</li>
-                <li>
-                  Definition von User Stories basierend auf identifizierten
-                  Anforderungen
-                </li>
               </ul>
             </div>
           </div>
@@ -178,13 +195,10 @@
             <div>
               <span>Aufgaben</span>
               <ul>
-                <li>Requirements Engineering und Erstellenvon User Stories</li>
-                <li>
-                  Optimierung der Userexperience in Microsoft Dynamics 365
-                </li>
-                <li>
-                  Durchführung von Fachtests und Sicherstellen der Abnahme
-                </li>
+                <li>Requirements Engineering</li>
+                <li>Erstellen von User Stories</li>
+                <li>Optimierung der Userexperience</li>
+                <li>Durchführung von Fachtests</li>
               </ul>
             </div>
           </div>
@@ -198,10 +212,8 @@
             <div>
               <span>Aufgaben</span>
               <ul>
-                <li>Planungund Durchführung von Benutzerschulungen</li>
-                <li>
-                  Durchführung von Fachtests und Sicherstellen der Abnahme
-                </li>
+                <li>Durchführung von Schulungen</li>
+                <li>Durchführung von Fachtests</li>
                 <li>2nd Level Support</li>
               </ul>
             </div>
@@ -210,123 +222,153 @@
       </section>
 
       <!-- Ausbildung
-      Quelle: https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap-->
+      Quelle: Bootstrap.com https://getbootstrap.com/docs/5.0/layout/containers/ -->
       <section id="edu">
         <div class="sectiontitle">
           <h1>AUSBILDUNG</h1>
         </div>
-        <div class="edu">
-          <div class="container">
-            <div class="box-container">
-              <div class="box">
-                <img src="assets/po.png" alt="Scrum Product Owner" />
-                <h3>Projektmanagement</h3>
-                <p>Professional Scrum Product Owner I</p>
-                <a
-                  href="https://www.credly.com/badges/c5705364-f749-4c95-a729-0d91a3a6c7ef/public_url"
-                  class="btn"
-                  >read more</a
-                >
-              </div>
 
-              <div class="box">
-                <img src="assets/sm.png" alt="Scrum Master" />
-                <h3>Projektmanagement</h3>
-                <p>Professional Scrum Master I <br /></p>
-                <a
-                  href="https://www.credly.com/badges/8c6e788f-398d-456b-a67d-44a0c9ed5bf4/public_url"
-                  class="btn"
-                  >read more</a
-                >
-              </div>
+        <div class="container">
+          <div class="box-container">
+            <div class="box">
+              <img src="assets/po.png" alt="Scrum Product Owner" />
+              <h3>Projektmanagement</h3>
+              <p>Professional Scrum Product Owner I</p>
+              <a
+                href="https://www.credly.com/badges/c5705364-f749-4c95-a729-0d91a3a6c7ef/public_url"
+                class="btn"
+                >read more</a
+              >
+            </div>
+
+            <div class="box">
+              <img src="assets/sm.png" alt="Scrum Master" />
+              <h3>Projektmanagement</h3>
+              <p>Professional Scrum Master I <br /></p>
+              <a
+                href="https://www.credly.com/badges/8c6e788f-398d-456b-a67d-44a0c9ed5bf4/public_url"
+                class="btn"
+                >read more</a
+              >
             </div>
           </div>
-          <div class="container">
-            <div class="box-container">
-              <div class="box">
-                <img src="assets/ireb.png" alt="IREB" />
-                <h3>Requirements Engineering</h3>
-                <p>
-                  IREB Certified Professional Requirements Engineering
-                  Foundation Level
-                </p>
-                <a
-                  href="https://www.ireb.org/de/service/cpre-registry-list/8192/"
-                  class="btn"
-                  >read more</a
-                >
-              </div>
+        </div>
+        <div class="container">
+          <div class="box-container">
+            <div class="box">
+              <img src="assets/ireb.png" alt="IREB" />
+              <h3>Requirements Engineering</h3>
+              <p>
+                IREB Certified Professional Requirements Engineering Foundation
+                Level
+              </p>
+              <a
+                href="https://www.ireb.org/de/service/cpre-registry-list/8192/"
+                class="btn"
+                >read more</a
+              >
             </div>
           </div>
-          <div class="container">
-            <div class="box-container">
-              <div class="box">
-                <img src="assets/englisch.jpg" alt="Englisch First" />
-                <h3>Englisch</h3>
-                <p>
-                  Cambridge English Level 1 Certificate in ESOL International
-                </p>
-                <a
-                  href="https://www.cambridgeenglish.org/exams-and-tests/first/"
-                  class="btn"
-                  >read more</a
-                >
-              </div>
-              <div class="box">
-                <img src="assets/delf.png" alt="DELF" />
-                <h3>Französisch</h3>
-                <p>Diplôme d'études en langue française (DELF) B2</p>
-                <a href="https://www.delfdalf.ch/delf-b2" class="btn"
-                  >read more</a
-                >
-              </div>
+        </div>
+        <div class="container">
+          <div class="box-container">
+            <div class="box">
+              <img src="assets/englisch.jpg" alt="Englisch First" />
+              <h3>Englisch</h3>
+              <p>Cambridge English Level 1 Certificate in ESOL International</p>
+              <a
+                href="https://www.cambridgeenglish.org/exams-and-tests/first/"
+                class="btn"
+                >read more</a
+              >
+            </div>
+            <div class="box">
+              <img src="assets/delf.png" alt="DELF" />
+              <h3>Französisch</h3>
+              <p>Diplôme d'études en langue française (DELF) B2</p>
+              <a href="https://www.delfdalf.ch/delf-b2" class="btn"
+                >read more</a
+              >
             </div>
           </div>
         </div>
       </section>
 
+      <!-- Kontaktformular 
+      Quelle: https://getbootstrap.com/docs/4.0/components/forms/-->
       <section id="contact" class="contact">
         <div class="sectiontitle">
           <h1>KONTAKTFORMULAR</h1>
         </div>
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlInput1">Vorname</label>
-            <input
-              type="text"
-              class="form-control"
-              id="firstname"
-              placeholder="Max"
-            />
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlInput2">Nachname</label>
-            <input
-              type="text"
-              class="form-control"
-              id="lastname"
-              placeholder="Muster"
-            />
-          </div>
+        <div class="contactform">
+          <p>Ich freue mich auf Ihre Kontaktaufnahme!</p>
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Vorname</label>
+              <input
+                type="text"
+                class="form-control"
+                id="firstname"
+                placeholder="Max"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput2">Nachname</label>
+              <input
+                type="text"
+                class="form-control"
+                id="lastname"
+                placeholder="Muster"
+              />
+            </div>
 
-          <div class="form-group">
-            <label for="exampleFormControlInput1">E-Mail</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="max.muster@example.com"
-            />
+            <div class="form-group">
+              <label for="exampleFormControlInput1">E-Mail</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="max.muster@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Nachricht</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="5"
+              ></textarea>
+            </div>
+            <button type="button" class="btn btn-primary">Senden</button>
+          </form>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col" style="font-size: 8pt; margin-top: 5px">
+                Copyright: Tim Zürcher
+              </div>
+              <div class="col">
+                <a href="#nav">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-up-circle"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Nachricht</label>
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="5"
-            ></textarea>
-          </div>
-        </form>
+        </div>
       </section>
     </main>
   </body>
