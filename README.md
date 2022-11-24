@@ -10,10 +10,11 @@ Vorgelegt von Tim Zürcher, tim.zuercher@students.bfh.ch
 
 Eingereicht bei Dominic Schweizer
 
-Eingereicht am 23.11.2022
+Eingereicht am 24.11.2022
 
 ## Quellen
 
+- About me: Bootstrap.com Bootstrap.com https://getbootstrap.com/docs/5.0/layout/containers/
 - Navbar: Bootstrap.com https://getbootstrap.com/docs/5.0/components/navbar/
 - Social Media: Bootstrap.com https://icons.getbootstrap.com/
 - CV: Example Website https://veracahrim.github.io/website-example/
