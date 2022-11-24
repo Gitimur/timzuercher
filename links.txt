@@ -1,8 +1,3 @@
-### Fragen: 
-- Wieso Nav nicht einblendbar?
-- Zeitachse länge vom Strich ?
-
-
 ### Linksammlung: 
 
 #ALG

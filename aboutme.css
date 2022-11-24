@@ -5,22 +5,11 @@
   place-items: center;
   position: relative;
   background-color: var(--background2);
+  min-height: 100vh;
 }
 
 #aboutme .sectiontitle {
   margin-bottom: 20px;
-}
-
-.aboutmedetails {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  place-items: center;
-}
-
-.aboutmedetails p {
-  text-align: left;
 }
 
 .profileimg img {
@@ -30,10 +19,6 @@
   place-items: center;
   position: relative;
   justify-content: space-around;
-  width: 80vw;
-  left: 10vw;
-  right: 10vw;
-
   padding-bottom: 20px;
 }
 
@@ -48,28 +33,4 @@
 
 iframe {
   justify-content: center;
-}
-
-@media (min-with: 768px) {
-  #aboutme {
-    display: grid;
-    gap: 2em 1em;
-    grid-template:
-      ". img . text ."
-      ". . socialmedia . .";
-    grid-template-columns: 1fr auto auto auto 1fr;
-    grid-template-rows: fit-content(10vh);
-  }
-
-  #aboutme h3 p iframe {
-    grid-area: text;
-  }
-
-  #aboutme img {
-    grid-area: img;
-  }
-
-  #aboutme .socialmedia {
-    grid-area: socialmedia;
-  }
 }
