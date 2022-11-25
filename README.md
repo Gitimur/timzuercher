@@ -10,7 +10,7 @@ Vorgelegt von Tim Zürcher, tim.zuercher@students.bfh.ch
 
 Eingereicht bei Dominic Schweizer
 
-Eingereicht am 24.11.2022
+Eingereicht am 25.11.2022
 
 ## Quellen
 
