@@ -21,6 +21,7 @@
       src="https://kit.fontawesome.com/7cf908c78a.js"
       crossorigin="anonymous"
     ></script>
+    <script>src="/script.js"</script>
   </head>
 
   <body>
@@ -325,45 +326,51 @@
         </div>
         <div class="contactform">
           <p>Ich freue mich auf Ihre Kontaktaufnahme!</p>
-          <form>
+          <!--Anpassungen zum funktionierenden Kontaktformular von simi2394 05.12.2022-->
+          <form action="https://api.web3forms.com/submit" method="post" id="form">
+          <input type="hidden" name="access_key" value="b0038dc4-bdc2-4364-8348-b297bb5d8590" />
+          <input type="hidden" name="subject" value="Test für timzuercher" />
+          <input type="checkbox" name="botcheck" id="" style="display: none;" />
             <div class="form-group">
               <label for="exampleFormControlInput1">Vorname</label>
               <input
                 type="text"
                 class="form-control"
-                id="firstname"
+                name="Vorname"
                 placeholder="Max"
               />
             </div>
             <div class="form-group">
-              <label for="exampleFormControlInput2">Nachname</label>
+              <label for="exampleFormControlInput1">Nachname</label>
               <input
                 type="text"
                 class="form-control"
-                id="lastname"
+                name="Nachname"
                 placeholder="Muster"
               />
             </div>
-
             <div class="form-group">
               <label for="exampleFormControlInput1">E-Mail</label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
-                id="exampleFormControlInput1"
+                name="Email"
                 placeholder="max.muster@example.com"
               />
             </div>
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Nachricht</label>
               <textarea
+                type="text"
                 class="form-control"
-                id="exampleFormControlTextarea1"
+                name="Nachricht"
                 rows="5"
+                placeholder="Deine Nachricht"
               ></textarea>
             </div>
-            <button type="button" class="btn btn-primary">Senden</button>
+            <button type="submit" class="btn btn-primary">Senden</button>
           </form>
+          <span id="msg"></span>
         </div>
         <!-- Footer -->
         <div class="footer">
