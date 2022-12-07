@@ -72,3 +72,14 @@ svg {
   padding: 0%;
   color: white;
 }
+
+/*--------Styling der message (Info) zur Verarbeitung des Kontaktformulars von simi2394 05.12.2022------------*/
+#msg{
+  color: #146b05;
+  margin-top: 40px;
+  display: block;
+}
+
+form .btn-primary{
+  cursor: pointer;
+}
